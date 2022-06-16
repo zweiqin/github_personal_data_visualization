@@ -9,7 +9,8 @@ Vue.prototype.$axios = axios
 
 // 将自动注册所有组件为全局组件
 import dataV from '@jiaminghi/data-view'
-import VueParticles from 'vue-particles'
+// import VueParticles from 'vue-particles'
+import VueParticles from './common/test/index.js'
 Vue.use(VueParticles)
 Vue.use(dataV)
 
